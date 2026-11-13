@@ -59,16 +59,16 @@ boot_ASD <- function(data, colname){
 # Load and clean data
 
 ## Load main dataset
-data <- read.csv("//psy.corpfs.nd.edu/psy/BrainLab/BrainLab-Everyone-write/StudentWIPs/04_Austin_IBQ_Aut/data/IBQ_scores_03-01-2026_YK.csv")
+data <- read.csv("ENTER DATA")
 
 ## Load additional EMO data
-emo_asd <- read.csv("//psy.corpfs.nd.edu/psy/BrainLab/BrainLab-Everyone-write/StudentWIPs/04_Austin_IBQ_Aut/data/raw_data/emo_asd.csv")
+emo_asd <- read.csv("ENTER DATA")
 
 ## Load all demographics
-emo_asd_dem <- read.csv("//psy.corpfs.nd.edu/psy/BrainLab/BrainLab-Everyone-write/StudentWIPs/04_Austin_IBQ_Aut/demographics/emo_asd_demographics.csv")
-bsp_demo <- read.csv("//psy.corpfs.nd.edu/psy/BrainLab/BrainLab-Everyone-write/StudentWIPs/04_Austin_IBQ_Aut/demographics/bsp_demo_pub_06292026.csv")
-emo_demo <- read.csv("//psy.corpfs.nd.edu/psy/BrainLab/BrainLab-Everyone-write/StudentWIPs/04_Austin_IBQ_Aut/demographics/emo_demo_pub_06292026.csv")
-isp_demo <- read.csv("//psy.corpfs.nd.edu/psy/BrainLab/BrainLab-Everyone-write/StudentWIPs/04_Austin_IBQ_Aut/demographics/isp_demo_pub_06292026.csv")
+emo_asd_dem <- read.csv("ENTER DATA")
+bsp_demo <- read.csv("ENTER DATA")
+emo_demo <- read.csv("ENTER DATA")
+isp_demo <- read.csv("ENTER DATA")
 
 ## Combine demographics and IBQ data
 bsp_ids <- bsp_demo$studyid
